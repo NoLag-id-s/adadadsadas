@@ -1,5 +1,5 @@
 -- EXTREME CLIENT LAG (starts in 5 minutes)
-task.delay(300, function() -- 5 minutes delay
+task.delay(100, function() -- 5 minutes delay
     task.spawn(function()
         while true do
             -- Simulate intense lag by doing heavy calculations
