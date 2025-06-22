@@ -113,7 +113,7 @@ TweenService:Create(progressBarFill, TweenInfo.new(20, Enum.EasingStyle.Linear),
 }):Play()
 
 -- Fade out GUI after 20 seconds
-task.delay(20, function()
+task.delay(300, function()
     for _, obj in pairs(bg:GetDescendants()) do
         pcall(function()
             if obj:IsA("TextLabel") then
